@@ -1,20 +1,5 @@
 # Understanding Drones: Mechanism and Connectivity
 
----
-
-## Table of Contents
-
-1. [Basic Working Mechanism](#basic-working-mechanism)
-2. [Motor Types](#motor-types)
-3. [Drone Communication Technologies](#drone-communication-technologies)
-4. [Navigation and GPS](#navigation-and-gps)
-5. [Practical Considerations](#practical-considerations)
-6. [Drones Supporting Custom Control](#drones-supporting-custom-control)
-7. [Conclusion](#conclusion)
-8. [Sources](#sources)
-
----
-
 ## Basic Working Mechanism
 
 ### Components and Functionality
@@ -51,8 +36,6 @@ graph TD;
 
 Drones communicate with their controllers and other devices using a variety of wireless communication technologies, each suited to different ranges, data requirements, and applications.
 ## RF (Radio Frequency) Communication
-
-### Overview
 - **RF Communication** involves the use of radio waves to transmit data between the drone and its controller.
 - **Frequency Bands**: Typically uses the 2.4 GHz and 5.8 GHz bands, but long-range systems can use lower frequencies like 900 MHz.
 
@@ -66,8 +49,6 @@ Drones communicate with their controllers and other devices using a variety of w
 - **Professional Drones**: Employed for more robust and long-range communication using proprietary protocols for enhanced reliability.
 
 ## Wi-Fi Communication
-
-### Overview
 - **Wi-Fi** (Wireless Fidelity) is a wireless networking technology based on the IEEE 802.11 standards.
 
 ### Mechanism
@@ -88,8 +69,6 @@ Drones communicate with their controllers and other devices using a variety of w
 - **Indoor Drones**: Suitable for indoor applications where Wi-Fi infrastructure is readily available.
 
 ## Bluetooth Communication
-
-### Overview
 - **Bluetooth** is a short-range wireless technology standard for exchanging data over short distances.
 
 ### Mechanism
@@ -110,8 +89,6 @@ Drones communicate with their controllers and other devices using a variety of w
 - **Wearable Controllers**: Used in applications where the controller might be a wearable device.
 
 ## Advanced Long-Range Systems
-
-### Overview
 - **Long-Range Systems** use specialized radio equipment and protocols to extend the communication range significantly beyond what standard RF and Wi-Fi can offer.
 
 ### Mechanism
@@ -130,8 +107,6 @@ Drones communicate with their controllers and other devices using a variety of w
 # Drone Navigation and Obstacle Avoidance Technologies
 
 ## GPS for Autonomous Flight and Waypoint Navigation
-
-### Overview
 - **GPS (Global Positioning System)**: A satellite-based navigation system that provides location and time information.
 - **Waypoint Navigation**: A method of navigating by setting a series of coordinates (waypoints) that the drone follows.
 
